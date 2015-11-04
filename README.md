@@ -3,7 +3,18 @@ Key generation package for golang
 
 ## Install
 
-    go get github.com/mirrr/go-keygen
+	go get github.com/mirrr/go-keygen
+
+## Use
+
+```golang
+import (
+	"fmt"
+	"github.com/mirrr/go-keygen"
+)
+
+fmt.Println(keygen.NewKey(8))
+```
 
 ## Documentation
 [Docs on godoc.org](https://godoc.org/github.com/mirrr/go-keygen)

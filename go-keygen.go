@@ -23,7 +23,7 @@ func NewPass(length int) string {
 	return randChar(length, []byte(smStr+num+bgStr+symb))
 }
 
-// NewAPIKey Generates keys such kind: uuu-xxxx-zzzzz
+// NewAPIKey generates keys such kind: uuu-xxxx-zzzzz
 func NewAPIKey(length int) string {
 	return NewKey(length) + "-" + NewKey(length+1) + "-" + NewKey(length+2)
 }
