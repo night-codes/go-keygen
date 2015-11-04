@@ -12,8 +12,9 @@ import (
 	"fmt"
 	"github.com/mirrr/go-keygen"
 )
-
-fmt.Println(keygen.NewKey(8))
+func main() {
+	fmt.Println(keygen.NewKey(8))
+}
 ```
 
 ## Documentation
