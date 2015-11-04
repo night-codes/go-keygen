@@ -25,7 +25,7 @@ func NewPass(length int) string {
 
 // NewAPIKey Generates keys such kind: uuu-xxxx-zzzzz
 func NewAPIKey(length int) string {
-	return NewKey(length) + '-' + NewKey(length+1) + '-' + NewKey(length+2)
+	return NewKey(length) + "-" + NewKey(length+1) + "-" + NewKey(length+2)
 }
 
 func randChar(length int, chars []byte) string {
